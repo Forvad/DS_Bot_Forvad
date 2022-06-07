@@ -1,4 +1,4 @@
-   🧾TGPars DS bot
+   🧾DS bot
 
   Open
    1) download python to your device

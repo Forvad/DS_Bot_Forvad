@@ -122,6 +122,7 @@ def messege():
                 j += 1
         else:
             logger.error('An error occurred while sending the message')
+        sleep(msg_sleep)
 
 
 system("cls")

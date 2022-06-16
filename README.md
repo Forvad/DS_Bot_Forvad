@@ -28,6 +28,8 @@
 
 * `sudo apt install python3 python3-pip git -y`
 
+* `apt install git`
+
 * `git clone https://github.com/Forvad/DS_Bot_Forvad/`
 
 * `cd DS_Bot_Forvad`

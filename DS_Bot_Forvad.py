@@ -138,9 +138,7 @@ re = "\033[1;31m"
 gr = "\033[1;32m"
 cy = "\033[1;36m"
 
-settings_data = input(f"{cy}install library {gr}yes{cy} / {re}no{cy}\n Enter the: ").lower()
-if settings_data in 'yes':
-    Setup.setup()
+
 config_data = input(f"{cy}do I need to change the config? {gr}yes{cy} / {re}no{cy}\n Enter the: ").lower()
 if config_data in 'yes':
     Setup.config_setup()

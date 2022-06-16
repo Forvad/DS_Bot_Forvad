@@ -82,3 +82,8 @@ class Update:
         data.write(config)
         config.close()
         print(gr + "[+] setup complete !")
+
+Setup = Update()
+settings_data = input(f"{cy}install library {gr}yes{cy} / {re}no{cy}\n Enter the: ").lower()
+if settings_data in 'yes':
+    Setup.setup()

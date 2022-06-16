@@ -1,4 +1,4 @@
-
+﻿
 🧾Installation
 ===================================
 <p align="center">
@@ -16,10 +16,6 @@
 
  * Open Command Line in "DS_Bot_Forvad" directory
 
- * `python setup.py`
-
- * Enter the address of the server and channel, 2 authorization tokens via ","
-
  * `python DS_Bot_Forvad.py`
 
  * Enter which line to start with
@@ -35,10 +31,6 @@
 * `git clone https://github.com/Forvad/DS_Bot_Forvad/`
 
 * `cd DS_Bot_Forvad`
-
-* `python3 setup.py`
-
-* Enter the address of the server and channel, 2 authorization tokens via ","
 
 * `python3 DS_Bot_Forvad.py`
 

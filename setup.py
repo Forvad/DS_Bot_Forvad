@@ -42,8 +42,7 @@ class Update:
                                         '''
                 )
         if 'posix' in name:
-            system('''pip3 install requests==2.25.1 loguru==0.5.3 urllib3==1.26.8 TgCrypto==1.2.3
-             gunicorn==20.1.0 PySocks==1.7.1 pyTelegramBotAPI==4.3.1 configparser pyuseragents==1.0.5''')
+            system('''pip3 install requests==2.25.1 loguru==0.5.3 urllib3==1.26.8 TgCrypto==1.2.3 gunicorn==20.1.0 PySocks==1.7.1 pyTelegramBotAPI==4.3.1 configparser pyuseragents==1.0.5''')
         else:
             system('''pip install requests==2.25.1 loguru==0.5.3 urllib3==1.26.8 TgCrypto==1.2.3 gunicorn==20.1.0 
             PySocks==1.7.1 pyTelegramBotAPI==4.3.1 configparser pyuseragents==1.0.5''')

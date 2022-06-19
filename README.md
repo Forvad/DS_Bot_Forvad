@@ -17,6 +17,8 @@
  * Open Command Line in "DS_Bot_Forvad" directory
 
  * `python DS_Bot_Forvad.py`
+ 
+ * `python setup.py`
 
  * Enter which line to start with
 
@@ -33,6 +35,8 @@
 * `git clone https://github.com/Forvad/DS_Bot_Forvad/`
 
 * `cd DS_Bot_Forvad`
+
+*  `python3 setup.py`
 
 * `python3 DS_Bot_Forvad.py`
 

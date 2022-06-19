@@ -56,9 +56,9 @@ class Update:
         import configparser
         data = configparser.RawConfigParser()
         data.add_section('data')
-        auth = input(gr + "[+] enter authorization : " + re)
+        auth = input(gr + "[+] enter authorization (authorization1,authorization2) : " + re)
         data.set('data', 'auth', auth)
-        server_chanel = input(gr + "[+] discord.com/.../... : " + re)
+        server_chanel = input(gr + "[+] discord.com/.../...(server/chanel) : " + re)
         data.set('data', 'server/chanel', server_chanel)
         use_telegram = (input(gr + 'message TG (y/N): ' + re))
         use_proxy = input(gr + 'need proxy (y/N)' + re)
